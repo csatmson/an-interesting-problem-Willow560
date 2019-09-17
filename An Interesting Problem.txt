@@ -1,0 +1,11 @@
+"""
+m = 1000
+y = int(input("How many years will you be saving?: "))
+print("Your final amount will be: ", m * (1 + (.05 / 4)) ** (4 * y))
+"""
+P = int(input("How much money do you want to invest?: "))
+r = int(input("How much % interest is the bank giving?: "))
+rDecimal = r / 100
+print("Your final amount will be ", P * (1 + (rDecimal / 4)) ** (4 * 5), "in 5 years")
+print("Your final amount will be ", P * (1 + (rDecimal / 4)) ** (4 * 10), "in 10 years")
+print("Your final amount will be ", P * (1 + (rDecimal / 4)) ** (4 * 25), "in 25 years")
